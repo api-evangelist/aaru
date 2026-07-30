@@ -1,22 +1,74 @@
 aid: aaru
 name: Aaru
-description: 'Aaru is a company surfaced as a portfolio company of general-catalyst and added to the API
-  Evangelist network as a stub for enrichment. Sector: ai. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'Aaru is an AI synthetic-research and prediction company based in New York City, founded in
+  2024 by Cam Fink, Ned Koh, and John Kessler. Aaru builds multi-agent simulation software that generates
+  thousands of AI agents from public and proprietary behavioral data to model how individuals, groups,
+  and entire populations will respond to future events, products, policies, and messaging. Its platform
+  (marketed as Lumen) replaces traditional survey-based market research and polling with measurable-outcome
+  simulation, covering price-sensitivity analysis, voter-behavior prediction, and disaster-communication
+  testing. Customers include Accenture, EY, Interpublic Group, and political campaigns; the company raised
+  a Series A at a roughly $1B headline valuation in December 2025, with backing from General Catalyst,
+  Redpoint Ventures, Felicis, Abstract Ventures, and others. Aaru currently exposes no public developer
+  API; this profile tracks its identity and web surface in the API Evangelist network.'
 url: https://raw.githubusercontent.com/api-evangelist/aaru/refs/heads/main/apis.yml
 x-type: company
 x-source: general-catalyst-portfolio
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
 modified: '2026-07-17'
+image: https://aaru.com/assets/og-image.png
 tags:
 - Company
-- Ai
+- AI
+- Artificial Intelligence
+- Prediction
+- Simulation
+- Synthetic Research
+- Market Research
+- Agent-Based Modeling
+- Polling
 apis: []
+common:
+- type: DomainSecurity
+  url: security/aaru-domain-security.yml
+- type: Website
+  url: https://aaru.com/
+- type: About
+  url: https://aaru.com/about
+- type: Login
+  url: https://account.aaru.com
+- type: Support
+  url: https://aaru.com/contact
+- type: PrivacyPolicy
+  url: https://aaru.com/policies/privacy
+- type: CookiePolicy
+  url: https://aaru.com/policies/cookies
+- type: DataProcessingAgreement
+  url: https://aaru.com/policies/data-processing
+- type: LinkedIn
+  url: https://www.linkedin.com/company/aaru-ai
+- type: Twitter
+  url: https://x.com/aaruhq
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
