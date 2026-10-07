@@ -62,6 +62,10 @@ tags_raw:
 - Polling
 apis: []
 common:
+- type: Pricing
+  url: https://aaru.com/use-cases/product-innovation
+- type: Plans
+  url: plans/aaru-plans-pricing.yml
 - type: DomainSecurity
   url: security/aaru-domain-security.yml
 - type: Website
